@@ -26,7 +26,7 @@ async function generateMarkdown(data){
     Please feel free to contact me on the links below:
     ![https://avatars2.githubusercontent.com/${data.Github}](https://avatars2.githubusercontent.com/${data.Github})
     ${data.email}
-    [My Github Page](https:github.com/${data.Github})
+    [My Github Page](https://github.com/${data.Github})
         `; 
     }
 

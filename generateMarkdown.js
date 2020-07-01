@@ -9,9 +9,9 @@ async function generateMarkdown(data){
     ${data.Installation !=="" ? '* [Installation](#installation)' :""}
     ${data.Usage !== "" ? '* [Usage](#usage)' : ""}
     ${data.License !=="" ? '* [License](#license)':""}
-    ${data.Contributing !=="" ? `* [Contributing](#Contributing)`: ""}
-    ${data.Tests !== "" ? '* [Tests](#Tests)':""}
-    ${data.Questions !== "" ? '* [Questions](#Questions)':""}
+    ${data.Contributing !=="" ? `* [Contributing](#contributing)`: ""}
+    ${data.Tests !== "" ? '* [Tests](#tests)':""}
+    ${data.Questions !== "" ? '* [Questions](#questions)':""}
     ## Installation
     ${data.Installation}
     ## Usage

@@ -73,7 +73,7 @@ init()
   .then(async function(answers) {
      const md = await generateMarkdown(answers);
       console.log("md:", md);
-    return fs.writeFile("README.md", md, function(err){
+    return fs.writeFile("generatedREADME.md", md, function(err){
       if (err){
         console.log("error:", err);
       } else {

@@ -1,16 +1,10 @@
 # Readme Generator Homework
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/dantalmont)
 
-This project uses node.js in the terminal to create a markdown file with a basic README template.
+This project uses node.js in the terminal to create a markdown file with a basic README template.<br>
 https://github.com/dantalmont/readme-generator
 <br>
 <br>
-## Table of contents
-    * [Installation](#Installation)
-    * [Technologies](#Technologies)
-    * [License](#License)
-    * [Launch](#Launch)
-  
 ## Installation
     Once node.js is installed, open terminal in the correct file path of the README Generator folder. RUN "npm install" to get all required dependencies. RUN "node index.js" then answer prompts to fill out each section of the README. Once completed a README.md file will be created.
 ## Technologies
